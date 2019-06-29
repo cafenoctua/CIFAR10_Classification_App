@@ -7,4 +7,4 @@ ENV GRANT_SUDO=yes \
     NB_UID=$UID \
     NB_GID=$GID \
     TZ=Asia/Tokyo
-RUN mkdir /home/jovyan/img
+# RUN mkdir /home/jovyan/img

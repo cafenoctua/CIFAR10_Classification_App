@@ -8,7 +8,7 @@ services:
     image: jupyter/datascience-notebook
     volumes:
     - ./src:/home/jovyan/work 
-    - ./img:/home/jovyan/img 
+    # - ./img:/home/jovyan/img 
     command: /bin/bash
     ports:
       - 8888:8888
